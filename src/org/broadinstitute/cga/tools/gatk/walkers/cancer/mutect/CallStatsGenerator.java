@@ -56,6 +56,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+// To generate vcf results
+
 /**
  *  Encapsulates the generation of a CallStats line based on the information in the Candidate
  */

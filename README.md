@@ -1,3 +1,10 @@
+#HMutect
+This repo aims to understand codes in Mutect.
+
+
+
+
+
 Overview
 --------------------------------------------------------
 For complete details see

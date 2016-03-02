@@ -55,7 +55,7 @@ public class AbstractPowerCalculator {
     protected HashMap<PowerCacheKey, Double> cache = new HashMap<PowerCacheKey, Double>();
     protected double constantEps;
     protected double constantLodThreshold;
-
+    
     protected static class PowerCacheKey {
         private int n;
         private double delta;
@@ -88,7 +88,8 @@ public class AbstractPowerCalculator {
             return result;
         }
     }
-
+    
+    // not clear?
     protected static double calculateLogLikelihood(int depth, int alts, double eps, double f) {
         double a = (depth-alts) * Math.log10(f*eps + (1d-f)*(1d-eps));
         double b = (alts) * Math.log10(f*(1d-eps) + (1d-f)*eps);

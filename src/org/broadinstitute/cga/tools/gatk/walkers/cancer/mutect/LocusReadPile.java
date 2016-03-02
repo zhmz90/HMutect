@@ -151,7 +151,7 @@ public class LocusReadPile {
         }
 
     }
-
+    
     public static ReadBackedPileup getOverlappingFragmentFilteredPileupButPreferMismatches(ReadBackedPileup rbp, byte ref) {
         return getOverlappingFragmentFilteredPileup(rbp, ref, true);
     }
